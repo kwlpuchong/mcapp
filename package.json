@@ -3,9 +3,18 @@
   "private": true,
   "dependencies": {
     "expo": "^29.0.0",
+    "expo-env": "^1.1.1",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
-    "react-navigation": "2.9.3"
+    "react-navigation": "2.9.3",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-enhancer-react-native-appstate": "^0.3.1",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "tcomb-form-native": "^0.6.15",
+    "voca": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "^5.2.0",
@@ -25,7 +34,8 @@
     "precommit": "lint-staged",
     "lint": "eslint app",
     "prettier": "eslint app --fix",
-    "postinstall": "rndebugger-open"
+    "postinstall": "rndebugger-open",
+    "env": "expo-env --env=dev"
   },
   "jest": {
     "preset": "jest-expo"

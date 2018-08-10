@@ -1,14 +1,12 @@
 {
   "expo": {
     "name": "mcapp",
-    "description": "App for experimenting with technical aspect of another commercial applicå†ion",
+    "description":
+      "App for experimenting with technical aspect of another commercial applicå†ion",
     "slug": "mcapp",
     "privacy": "public",
     "sdkVersion": "29.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./app/assets/icon.png",
@@ -20,17 +18,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
-    },
-    "extra": {
-      "AUTH_OAUTH2_URL": "http://127.0.0.1:8080/api/oauth/token",
-      "AUTH_OAUTH2_CLIENT_ID": "mcollectclient01",
-      "AUTH_OAUTH2_CLIENT_SECRET": "Passw0rd1",
-      "AUTH_OAUTH2_SCOPE": "mcollect"
     }
   }
 }
